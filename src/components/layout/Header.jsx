@@ -6,7 +6,7 @@ const Header = () => {
   const { user } = useUser()
 
   const { name, color } = user
-
+  console.log(color)
   return (
     <header>
       <img src={logo} className="app-logo" alt="Alchemy Logo" />

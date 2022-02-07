@@ -5,6 +5,7 @@ const UserContext = createContext()
 
 export const UserProvider = ({ children }) => {
   const [user, setUser] = useState({})
+
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchUser()
