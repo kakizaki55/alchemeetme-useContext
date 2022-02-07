@@ -4,9 +4,9 @@ import './Header.css'
 
 const Header = () => {
   const { user } = useUser()
-  console.log(user)
+
   const { name, color } = user
-  console.log(color)
+
   return (
     <header>
       <img src={logo} className="app-logo" alt="Alchemy Logo" />
